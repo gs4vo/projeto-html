@@ -4,24 +4,11 @@ header{
     color: white;
     padding: 10px;
     font-size: 60px;
+    text-align: center;
 
 }
 
-.section-1 {
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-}
 
-.section-2 {
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-}
 
 footer li{
     text-align: center;
@@ -32,10 +19,9 @@ footer li{
 
 footer ul {
     margin: 0;
-    padding: 70;
     background-color: rgb(255, 255, 255);
     padding: 40px;
-    font-size: 40px;
+    font-size: 20px;
     color: black;
 }
 
@@ -46,4 +32,67 @@ footer {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
